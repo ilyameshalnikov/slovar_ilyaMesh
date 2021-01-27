@@ -67,7 +67,7 @@ def corrector(rus_list,ing_list):
          print(f"{viga.upper()} отсутствует в словаре")
          rus_list=loe_fail("rus.txt")
          ing_list=loe_fail("ing.txt")
-         return rus_list,ing_list
+    return rus_list,ing_list
 
 
 rus_list=loe_fail("rus.txt")
@@ -82,7 +82,7 @@ while True:
          tolkimine(rus_list,ing_list)
     elif otv=="2":
         rus_list,ing_list=uued_words()
-    elif otv=="3":-
+    elif otv=="3":
         print(rus_list,ing_list)
         rus_list,ing_list=corrector(rus_list,ing_list)
         print(rus_list,ing_list)
